@@ -366,10 +366,10 @@ $(document).ready(function () {
             // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
             var mapOptions = {
                 // How zoomed in you want the map to start at (always required)
-                zoom: 11,
+                zoom: 15,
 
                 // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                center: new google.maps.LatLng(52.234650, 20.999960), // New York
 
                 // How you would like to style the map. 
                 // This is where you would paste any style found on Snazzy Maps.
@@ -385,9 +385,9 @@ $(document).ready(function () {
 
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(52.234650, 20.999960),
                 map: map,
-                title: 'Snazzy!'
+                title: 'Fab!'
             });
         }
     }
