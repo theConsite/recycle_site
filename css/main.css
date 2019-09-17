@@ -654,7 +654,7 @@ td, th {
 .alert-msg {
   color: #008000; }
 
-.p1-gradient-bg, .buttons.gray:hover, .primary-btn, .feature-area .single-feature .title .lnr, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .single-price:hover .price-btn, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
+.p1-gradient-bg, .buttons.gray:hover, .primary-btn, .feature-area .single-feature .title .lnr, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item, .single-price:hover .price-btn, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
   background-image: -moz-linear-gradient(0deg, #2BC31F 0%, #098343 100%);
   background-image: -webkit-linear-gradient(0deg, #2BC31F 0%, #098343 100%);
   background-image: -ms-linear-gradient(0deg, #2BC31F 0%, #098343 100%);
@@ -1637,7 +1637,11 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(43, 194, 27, 0.9);
   transition: all 0.5s; }
 
+
 @media (max-width: 673px) {
+    .scrolledHeader{
+      background: rgba(43, 194, 27, 0.9); !important
+}
   #logo {
     margin-left: 20px; } }
 #header #logo h1 {
@@ -1850,7 +1854,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   background: rgba(0, 0, 0, 0.7);
   display: none; }
-
+.banner-area {
+  background: url(../img/banner.jpg) center;
+  background-size: cover; }
 /* Mobile Nav body classes */
 body.mobile-nav-active {
   overflow: hidden; }
@@ -1875,15 +1881,15 @@ body.mobile-nav-active #mobile-nav-toggle {
       .home-banner-area .banner-img {
         text-align: center; } }
     @media (max-width: 767px) {
+        .banner-area {
+            background: white;}
       .home-banner-area .banner-img {
         display: none; } }
   @media (max-width: 991px) {
     .home-banner-area .fullscreen {
       height: 700px !important; } }
 
-.banner-area {
-  background: url(../img/banner.jpg) center;
-  background-size: cover; }
+
   .banner-area .banner-content {
     padding: 162px 0; }
     @media (max-width: 767px) {
@@ -2101,7 +2107,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       transition: all 0.3s ease 0s;
       cursor: pointer; }
       .testimonials-area .owl-thumb-item .overlay-grad:hover {
-        opacity: .3; }
+        opacity: 0; }
 
 .testi-slider {
   margin: auto; }
