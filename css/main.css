@@ -2605,8 +2605,13 @@ body.mobile-nav-active #mobile-nav-toggle {
       left: 0px;
       top: 0px;
       width: 100%;
+      
       z-index: -1; }
-    .blog_banner .banner_inner .blog_b_text {
+    .instagram_feed{
+      width: 90vw;
+      margin: 0 auto ;
+    }
+      .blog_banner .banner_inner .blog_b_text {
       max-width: 700px;
       margin: auto;
       color: #fff;
