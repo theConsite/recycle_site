@@ -3276,4 +3276,11 @@ body.mobile-nav-active #mobile-nav-toggle {
       .footer-area .footer-bottom .buttons p span {
         font-size: 18px; }
 
+.desc{
+    position: absolute;
+}
+
+.apf{
+    margin-top: 100px;
+}
 /*# sourceMappingURL=main.css.map */
